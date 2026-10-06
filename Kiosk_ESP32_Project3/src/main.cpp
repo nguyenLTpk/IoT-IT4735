@@ -18,7 +18,7 @@
 
 // Communication modules
 #if ENABLE_WIFI
-#include "WifiManager.h" // Quản lý wifi
+#include "WiFiManager.h" // Quản lý wifi
 #endif
 
 #if ENABLE_MQTT
@@ -52,7 +52,7 @@
 #include "OledBackdrop.h"      // Giao diện chào trên màn hình điện tử
 #include "QrManager.h"         // Quản lý QR scanner qua UART
 #include "Rfid125khzManager.h" // Quản lý RFID 125kHz
-#include "WifiManager.h"       // Quản lý wifi
+#include "WiFiManager.h"       // Quản lý wifi
 #include "main.h"              // Thông tin dev
 
 

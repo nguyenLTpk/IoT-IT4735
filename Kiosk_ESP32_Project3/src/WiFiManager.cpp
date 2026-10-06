@@ -1,9 +1,9 @@
 #include <LittleFS.h>
 #include <WiFi.h>
-#include "WifiManager.h"
+#include "WiFiManager.h"
 #include "WiFiSelfEnroll.h"
 #include "WiFiEnrollBySerial.h"
-#include "configmanager.h"
+#include "ConfigManager.h"
 #include "main.h"
 
 bool wifiStatus = false;
