@@ -1,0 +1,6 @@
+# sqlite3 có sẵn trong thư viện chuẩn Python, không cần cài
+paho-mqtt>=2.0,<3.0
+fastapi>=0.115,<1.0
+uvicorn>=0.30,<1.0
+# Chỉ dùng cho bộ test (fastapi.testclient)
+httpx>=0.27,<1.0
